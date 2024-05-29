@@ -85,7 +85,8 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <footer className="bg-gray-700 text-black text-center p-4 ">
+
+      <footer className="bg-gray-700 text-black text-center  mt-16 p-4 ">
         <a href="https://www.instagram.com/celebrity_fashion_decode/?hl=en" className="text-white">
             @StylerwommensClothing
           </a>
