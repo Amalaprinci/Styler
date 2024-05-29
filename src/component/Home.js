@@ -85,10 +85,13 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <footer className="bg-gray-700 mt-24 text-black text-center p-4">
-        <p>&copy; Follow us on Instagram</p>
+      <footer className="bg-gray-700 text-black text-center p-4 fixed bottom-0 w-full">
+        <a href="https://www.instagram.com/celebrity_fashion_decode/?hl=en" className="text-white">
+            @StylerwommensClothing
+          </a>
+        <p>follow us on Instagram&copy;</p>
         <p>
-          <a href="https://www.instagram.com/celebrity_fashion_decode/?hl=en" className="text-white">@StylerwommensClothing</a>
+          
         </p>
       </footer>
     </div>

@@ -207,12 +207,13 @@ export const Product = () => {
     </p>
 </section>
       </section>
-      <footer className="bg-gray-700 text-black text-center  p-4 l">
-        <p>&copy; follow us on Instagram</p>
-        <p>
-          <a href="https://www.instagram.com/celebrity_fashion_decode/?hl=en" className="text-white">
+      <footer className="bg-gray-700 text-black text-center p-4 fixed bottom-0 w-full">
+        <a href="https://www.instagram.com/celebrity_fashion_decode/?hl=en" className="text-white">
             @StylerwommensClothing
           </a>
+        <p>follow us on Instagram&copy;</p>
+        <p>
+          
         </p>
       </footer>
       </div>
