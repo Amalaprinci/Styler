@@ -26,7 +26,7 @@ export const Shirt = () => {
             </header>
             <div className="absolute top-[13%] left-[25%] text-2xl">
                 <Link to='/Home' className="text-white font-bold ml-10 no-underline">Home</Link>
-                <Link to='/Rhome' className="text-white font-bold ml-10 no-underline">Product</Link>
+                <Link to='/Product' className="text-white font-bold ml-10 no-underline">Product</Link>
                 <Link to='/About' className="text-white font-bold ml-10 no-underline">Contact Us</Link>
                 <Link to='/MyProfile' className="text-white font-bold ml-10 no-underline">MyProfile</Link>
                 <Link to='/Aboutus' className="text-white font-bold ml-10 no-underline">Aboutus</Link>

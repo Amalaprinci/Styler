@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { FaEnvelope, FaLock, FaUser, FaPhone, FaSearch } from 'react-icons/fa';
+
 import Product1 from './im11.webp';
 import Product2 from './adver3.jpg';
 import Product3 from './im13.webp';
@@ -56,7 +58,7 @@ export const Home = () => {
           </div>
         </Carousel>
       </div>
-      <marquee className="bg-pink-200 font-sans text-4xl text-black" style={{ width: '150%' }}> UNLIMITED OFFERS !!! SUMMER SALE</marquee>
+      <marquee className="bg-pink-200 font-sans text-4xl text-black" style={{ width: '100%' }}> UNLIMITED OFFERS !!! SUMMER SALE</marquee>
 
 
       <section className="h-auto bg-orange-100 p-5">

@@ -30,13 +30,11 @@ export const Product = () => {
                 <div className="bar"></div>
                 <div className="bar"></div>
             </div> */}
-            <div className=" absolute top-[13%] left-[25%] text-2xl">
+            <div className=" absolute top-[13%] left-[30%] text-2xl">
         <Link to='/Home' className="text-white font-bold ml-10 no-underline">Home</Link>
-        <Link to='/About' className="text-white font-bold ml-10 no-underline">Contact Us</Link>
+        <Link to='/Contact' className="text-white font-bold ml-10 no-underline">Contact Us</Link>
         <Link to='/Payment' className="text-white font-bold ml-10 no-underline"  >Payment</Link>
-        <Link to='/AboutUs' className="text-white font-bold ml-10 no-underline">Aboutus</Link>
-        <Link to='/MyProfile' className="text-white font-bold ml-10 no-underline">MyProfile</Link>
-
+        <Link to='/Aboutus' className="text-white font-bold ml-10 no-underline">Aboutus</Link>
     </div>
             {/* Search Bar */}
             <div className="search-bar bg-gray-300 p-2 absolute top-[13%] right-5 z-50">
@@ -62,119 +60,119 @@ export const Product = () => {
                 </ul>
             </nav>
             {/* Section */}
-            <section className=" h-[50%] bg-orange-100 p-5">
+            <section className=" h-[3030px] bg-orange-100 p-5">
                 {/* Products */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* Product 1 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product5} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Reeva Handloom Cotton Short Top</h2>
-                        <h3 className="font-bold text-lg">₹ 1,180 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product1} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Women Anarkali Kurti</h2>
+                        <h3 className="font-bold text-lg">₹ 2,950 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 2 */}
-                    <div className="relative">
-                        <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product2} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6 ">Vanhi Handloom Cotton Kurta</h2>
-                        <h3 className="font-bold text-lg">₹ 1,850 inc. GST</h3>
-                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
-                    </div>
-                    {/* Product 3 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product3} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Roshawn Cotton Handblock Dress</h2>
-                        <h3 className="font-bold text-lg">₹ 2,350 inc. GST</h3>
-                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
-                    </div>
-                    {/* Product 4 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product4} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Keira Cotton Slub Short Kurti</h2>
-                        <h3 className="font-bold text-lg">₹ 2,280 inc. GST</h3>
-                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
-                    </div>
-                   {/* Product 5 */}
-                   <div className="relative">
-                        <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product1} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6 ">Anushree Cotton Straight Kurta</h2>
-                        <h3 className="font-bold text-lg">₹ 830 inc. GST</h3>
-                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
-                    </div>
-                    {/* Product 6 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product6} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Artha Mahi Silk Short Kurti</h2>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product2} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6" > Straight Cut Kurti</h2>
                         <h3 className="font-bold text-lg">₹ 1,950 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
+                    {/* Product 3 */}
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product3} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Women Lace Kurti</h2>
+                        <h3 className="font-bold text-lg">₹ 2,000 inc. GST</h3>
+                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
+                    </div>
+                    {/* Product 4 */}
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product4} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Women Striped Regular Asymmetrical</h2>
+                        <h3 className="font-bold text-lg">₹ 2,950 inc. GST</h3>
+                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
+                    </div>
+                   {/* Product 5 */}
+                   <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product5} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Overlay Kurti</h2>
+                        <h3 className="font-bold text-lg">₹ 2,550 inc. GST</h3>
+                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
+                    </div>
+                    {/* Product 6 */}
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product6} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">handeri Thread Work</h2>
+                        <h3 className="font-bold text-lg">₹ 1,450 inc. GST</h3>
+                        <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
+                    </div>
                     {/* Product 7 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product7} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Pratyaksha Handblock Complete Suit Set</h2>
-                        <h3 className="font-bold text-lg">₹ 3,600 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product7} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Drashti Dhami Violet Embroidered suit</h2>
+                        <h3 className="font-bold text-lg">₹ 3,950 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 8 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product8} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Gautami Cotton Dobby Short Top</h2>
-                        <h3 className="font-bold text-lg">₹ 1,460 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product8} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Peach Cotton</h2>
+                        <h3 className="font-bold text-lg">₹ 950 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 9 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product9} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Pakhi Handblock Cotton Short Kurti</h2>
-                        <h3 className="font-bold text-lg">₹950 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product9} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6"> Regular Fit Short Top </h2>
+                        <h3 className="font-bold text-lg">₹ 650 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 10 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product10} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Shaila Handblock Cotton Shirt</h2>
-                        <h3 className="font-bold text-lg">₹ 1,000 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product10} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Women Striped Regular Fit Shirt</h2>
+                        <h3 className="font-bold text-lg">₹ 750 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 11 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product11} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Laksha Cotton Kurta Pant Set</h2>
-                        <h3 className="font-bold text-lg">₹ 3,460 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product11} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Women Striped  Fit </h2>
+                        <h3 className="font-bold text-lg">₹ 950 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 12 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product12} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Atreyia Muslin Handblock Dress</h2>
-                        <h3 className="font-bold text-lg">₹ 1,350 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product12} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Women Suit set</h2>
+                        <h3 className="font-bold text-lg">₹ 2,950 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 13 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product13} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Aarunya Cotton Handblock Dress</h2>
-                        <h3 className="font-bold text-lg">₹ 2,850 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product13} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6"> Regular Fit Long Kurthi</h2>
+                        <h3 className="font-bold text-lg">₹ 4,950 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                     {/* Product 14 */}
-                    <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product14} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Blue Cotton Frill Dress</h2>
-                        <h3 className="font-bold text-lg">₹ 2,750 inc. GST</h3>
+                    <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product14} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Full kurthi</h2>
+                        <h3 className="font-bold text-lg">₹ 1,050 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                      {/* Product 15 */}
-                     <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product15} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Tiara Linen Satin Co-ord Set</h2>
-                        <h3 className="font-bold text-lg">₹ 4,350 inc. GST</h3>
+                     <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product15} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Women  full Suit</h2>
+                        <h3 className="font-bold text-lg">₹ 3,000  inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                      {/* Product 16 */}
-                     <div className="relative">
-                    <img className="transition-transform duration-200 hover:scale-[1.1]  "style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '38px' }} src={Product16} alt="Styler" />
-                        <h2 className="font-serif text-lg mt-6">Ehimay Cotton A Line Dress</h2>
-                        <h3 className="font-bold text-lg">₹ 2,330 inc. GST</h3>
+                     <div className="relative text-center">
+                        <img className="transition-transform duration-200 hover:scale-[1.1] " style={{ width: '80%', height: 'auto', border: '10px solid lightpink', borderRadius: '34px' }} src={Product16} alt="Styler" />
+                        <h2 className="font-serif text-lg mt-6">Casual Sleve kurthi</h2>
+                        <h3 className="font-bold text-lg">₹ 800 inc. GST</h3>
                         <a href="/Payment" className="inline-block mt-2 bg-red-500 text-white py-1 px-2 rounded">Buy</a>
                     </div>
                 </div>
@@ -195,24 +193,24 @@ export const Product = () => {
                  </p>
 
 </section>
-<section className="mt-10 bg-orange-100 ">
+<section className="mt-10">
                  <p className="text-xl mt-5">
                  The kind of clothes you wear is known to define your personality. Therefore, your fashion sense can be used as a means to express yourself. 
                  With Styler, you will get access to beautiful women’s dresses online to enhance your personality for the better.
                  </p>
                  
 </section>
-<section className="mt-10 bg-orange-100 ">
+<section className="mt-10">
     <p className="text-xl mt-5">
     <div className="font-bold text-lg mt-6">Women cotton pants:</div> Tailored out of premium cotton, our classic collection of cotton pants slip easily into your kurta, tops, and tunics. Cotton pants potentially fit almost every style and look. Women of all ages look really beautiful. Paired with contrasting hues of tops and tunics, cotton pants create a unique style statement. Being a natural fiber, cotton clothing maintains proper insulation of air for your skin to breathe easily in summers. Explore the women cotton clothing online collection for unique pieces.
 
     <div className="font-bold text-lg mt-6">Kurta-dupatta set:</div> Amongst the women wear, kurta is a popular one. Our kurta dupatta set is a piece for a perfectly designed silhouette. The finest weave of cotton gives it a lustrous appeal. Vivid hues of Kurtas with the embellishment of Aari embroidery, beads ornamentation, and tassel details add charm to your aura. Choose this among the women clothes for an elegant look. Flattering and flared kurtas with comfortable bottoms give you an exquisite look.
 
-    <div className="font-bold text-lg mt-3">Loungewear set:</div> Loungewear is the most comfortable clothing for everyone. It is considered as a comfy choice in women wear. Adorned with hand block and Mughal prints, our loungewear set gives you an exquisite look. To beat the challenges of the sultry days, cotton loungewear is supremely comfortable. Choose these ladieswear with intricating prints and charming colors fill your day with energy.
+    <div className="font-bold text-lg mt-6">Loungewear set:</div> Loungewear is the most comfortable clothing for everyone. It is considered as a comfy choice in women wear. Adorned with hand block and Mughal prints, our loungewear set gives you an exquisite look. To beat the challenges of the sultry days, cotton loungewear is supremely comfortable. Choose these ladieswear with intricating prints and charming colors fill your day with energy.
     </p>
 </section>
       </section>
-      <footer className="bg-gray-700 text-black  text-center p-4 ">
+      <footer className="bg-gray-700 text-black text-center  p-4 l">
         <p>&copy; follow us on Instagram</p>
         <p>
           <a href="https://www.instagram.com/celebrity_fashion_decode/?hl=en" className="text-white">

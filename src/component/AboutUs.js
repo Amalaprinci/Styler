@@ -17,13 +17,13 @@ export const AboutUs = () => {
             </header>
 
             <div className="absolute top-[13%] left-[25%] text-2xl">
-                <Link to='/Home' className="text-white font-bold ml-10 no-underline">Home</Link>
-                <Link to='/About' className="text-white font-bold ml-10 no-underline">Contact Us</Link>
-                <Link to='/Payment' className="text-white font-bold ml-10 no-underline">Payment</Link>
-                <Link to='/AboutUs' className="text-white font-bold ml-10 no-underline">About Us</Link>
-                <Link to='/MyProfile' className="text-white font-bold ml-10 no-underline">MyProfile</Link>
+            <Link to='/Home' className="text-white font-bold ml-10 no-underline">Home</Link>
+        <Link to='/Product' className="text-white font-bold ml-10 no-underline">Product</Link>
+        <Link to='/Contact' className="text-white font-bold ml-10 no-underline">Contact Us</Link>
+        <Link to='/Payment' className="text-white font-bold ml-10 no-underline">Payment</Link>
+        <Link to='/MyProfile' className="text-white font-bold ml-10 no-underline">MyProfile</Link>
 
-            </div>
+      </div>
 
             <div className="search-bar bg-gray-300 p-2 absolute top-[13%] right-5 z-50">
                 <input type="text" placeholder="Search..." className="w-48 py-2 px-4 rounded-full" />
@@ -38,7 +38,6 @@ export const AboutUs = () => {
             </nav>
 
             <div className="container mx-auto px-4 bg-orange-100 py-8">
-                <h2 className="text-3xl font-bold mb-4 text-center">About Us</h2>
                 <p className="text-gray-700 font-serif text-center text-3xl">
                     Styler Women's Clothing is more than just a fashion brand; it's a community built on the values of empowerment, inclusivity, and style.
                 </p>

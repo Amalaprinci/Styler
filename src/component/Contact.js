@@ -77,8 +77,9 @@ export const Contact= () =>
           <div className="bar w-6 h-0.5 bg-white my-1"></div>
         </div> */}
          <div className=" absolute top-[13%] left-[30%] text-2xl">
+         <Link to='/Home' className="text-white font-bold ml-10 no-underline">Home</Link>
           <Link to='/Product' className="text-white font-bold ml-10 no-underline">Product</Link>
-          <Link to='/Contact' className="text-white font-bold ml-10 no-underline">Contact Us</Link>
+          <Link to='/MyProfile' className="text-white font-bold ml-10 no-underline">My Profile</Link>
           <Link to='/Payment' className="text-white font-bold ml-10 no-underline"  >Payment</Link>
           <Link to='/Aboutus' className="text-white font-bold ml-10 no-underline">Aboutus</Link>
       </div>
