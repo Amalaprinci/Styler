@@ -25,9 +25,7 @@ export const AboutUs = () => {
 
       </div>
 
-            <div className="search-bar bg-gray-300 p-2 absolute top-[13%] right-5 z-50">
-                <input type="text" placeholder="Search..." className="w-48 py-2 px-4 rounded-full" />
-            </div>
+            
 
             <nav className="md:block bg-gray-700 text-white p-6 text-center">
                 <ul className="list-none p-0 m-0">

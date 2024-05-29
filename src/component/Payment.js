@@ -65,9 +65,7 @@ export const Payment= () => {
          <Link to='/MyProfile' className="text-white font-bold ml-10 no-underline">MyProfile</Link> 
         <Link to='/Aboutus' className="text-white font-bold ml-10 no-underline">Aboutus</Link>
     </div>
-      <div className="search-bar bg-gray-300 p-2 absolute top-[12%] right-5 z-50">
-        <input type="text" placeholder="Search..." className="w-44 p-2 border-none rounded" />
-      </div>
+     
       <nav className="md:block bg-gray-700 text-white p-6 text-center">
         <ul className="list-none p-0 m-0">
           <li className="inline-block relative mr-2">
